@@ -17,6 +17,32 @@ while True:
     print(user_input)
 print('end of loop 2')
 
+print('***While Loop 3***')
+largest = None
+smallest = None
+
+while True:
+    num = input("Enter a number: ")
+    if num == "done":
+        break
+    try:
+        inum = int(num)
+        if largest is None:
+            largest = inum
+        elif inum > largest:
+            largest = inum
+
+        if smallest is None:
+            smallest = inum
+        elif inum < smallest:
+            smallest = inum
+    except:
+        print('Invalid input')
+        continue
+
+print("Maximum is", largest)
+print("Minimum is", smallest)
+
 print('***For loop 1***')
 for i in [1,2,3,4,5,6]:
     print(i)
@@ -95,3 +121,4 @@ for item in arr:
 
 
 print ('smallest', small)
+
