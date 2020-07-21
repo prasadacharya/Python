@@ -107,3 +107,4 @@ print(float(num.lstrip()))
 x='hello'
 y=u'hello'
 print(type(x),type(y))
+
