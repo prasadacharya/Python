@@ -79,4 +79,4 @@ for line in fh:
     total = total + val
 
 average = total / count
-print("Average spam confidence:", average)
+print("Average confidence:", average)
