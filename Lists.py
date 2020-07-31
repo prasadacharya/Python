@@ -1,6 +1,7 @@
 
 #DATA STRUCTURES
 #Collection
+#LIST:A Linear collection of values that stay in order(index)
 
 
 #Simple List
