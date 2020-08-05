@@ -124,6 +124,7 @@ print(stuff.get('candy',-1))
 #to a count of the number of times they appear in the file.
 #After the dictionary is produced, the program reads through the dictionary
 #using a loop to find the maximum one.
+#Mail: from abc@xyz.com Fri Feb  8 10:11:26 2010
 name = input("Enter file:")
 if len(name) < 1: name = "emails.txt"
 handle = open(name)
